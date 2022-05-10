@@ -1,34 +1,44 @@
-const fakeTrails = [
+const trails = [
 	{
-		"trailName": "Regents Canal- Broadway Market to Angel",
-		"length": "45 minutes", 
-		"difficulty": "Easy",
+		"id": 1,
+		"name": "Regents Canal- Broadway Market to Angel",
+		"location": "London, UK",
+		"estTime": "45 minutes", 
+		"difficulty": "easy",
 		"dogFriendly": true
 	},
 	{
-		"trailName": "Yosemite Falls",
-		"length": "45 minutes", 
-		"difficulty": "Moderate",
+		"id": 2,
+		"name": "Yosemite Falls",
+		"location": "CA, USA",
+		"estTime": "45 minutes", 
+		"difficulty": "moderate",
 		"dogFriendly": true
 	},
 	{
-		"trailName": "Yosemite El Capitan",
-		"length": "45 minutes", 
-		"difficulty": "Easy",
+		"id": 3,
+		"name": "Yosemite- El Capitan",
+		"location": "CA, USA",
+		"estTime": "45 minutes", 
+		"difficulty": "easy",
 		"dogFriendly": false
 	},
 	{
-		"trailName": "Abel Tasman Coastal",
-		"length": "6h 17m", 
-		"difficulty": "Moderate",
+		"id": 4,
+		"name": "Abel Tasman Coastal",
+		"location": "NZ",
+		"estTime": "6h 17m", 
+		"difficulty": "moderate",
 		"dogFriendly": true
 	},
 	{
-		"trailName": "Mueller Hut Route",
-		"length": "4h 12m", 
-		"difficulty": "Hard",
+		"id": 5,
+		"name": "Mount Cook National Park- Mueller Hut Route",
+		"location": "NZ",
+		"estTime": "4h 12m", 
+		"difficulty": "hard",
 		"dogFriendly": false
 	}
 ]
 
-export default fakeTrails;
+export default trails;

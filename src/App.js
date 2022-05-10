@@ -1,7 +1,7 @@
-// import React, {Component} from 'react'
+import React, {Component} from 'react';
 import './App.css';
-import SearchBar from './components/searchBar'
-import fakeTrails from './FakeJson';
+import SearchBar from './components/searchBar';
+import trails from './FakeJson';
 
 const App = () => {
 	return (
@@ -9,8 +9,8 @@ const App = () => {
 			<h1>OH, THE PLACES YOU'LL GO</h1>
 			<SearchBar />
 			<ul>
-				{fakeTrails.map((trail) => (
-					<li key={trail.trailName}>{trail.trailName}</li>
+				{trails.map((trail) => (
+					<li key={trail.id}>{trail.name}</li>
 				))}
 			</ul>
 		</div>
