@@ -2,7 +2,10 @@
 
 ## About
 
-## Set-up
+## Project Status
+This project is currently in development.
+
+## Installation and Setup Instructions
 
 ## Design and Approach
 <img src="src/images/hikes-app-sketch.png" alt="logo" width="600" height="1000" />
