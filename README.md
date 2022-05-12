@@ -8,7 +8,9 @@ This project is currently in development.
 ## Installation and Setup Instructions
 
 ## Design and Approach
-<img src="src/images/hikes-app-sketch.png" alt="logo" width="600" height="1000" />
+<img src="src/images/hikes-app-sketch.png" alt="App design" width="600" height="1000" />
+
+<img src="src/images/componentsModelScreenshot.png" alt="Components model" width="600" height="1000" />
 
 ### Project Management
 - [Trello board](https://trello.com/b/ClZSDPID/hikes-app)
