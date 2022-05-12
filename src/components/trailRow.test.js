@@ -5,7 +5,7 @@ describe("<TrailRow />", () => {
 	it('renders trail name', () => {
 		render(<TrailRow />);
 
-		const trailsNames = screen.getByTestId("text-input");
+		const trailsNames = screen.getByTestId("trail-name");
 		expect(trailsNames).toBeInTheDocument();
 	});
 })
