@@ -1,6 +1,5 @@
-const trails = [
+const dummyTrails = [
 	{
-		"id": 1,
 		"name": "Regents Canal- Broadway Market to Angel",
 		"location": "London, UK",
 		"estTime": "45 min", 
@@ -8,7 +7,6 @@ const trails = [
 		"dogFriendly": true
 	},
 	{
-		"id": 2,
 		"name": "Yosemite Falls",
 		"location": "CA, USA",
 		"estTime": "4h 45m", 
@@ -16,7 +14,6 @@ const trails = [
 		"dogFriendly": true
 	},
 	{
-		"id": 3,
 		"name": "Yosemite- El Capitan",
 		"location": "CA, USA",
 		"estTime": "6h 38m", 
@@ -24,7 +21,6 @@ const trails = [
 		"dogFriendly": false
 	},
 	{
-		"id": 4,
 		"name": "Abel Tasman Coastal",
 		"location": "NZ",
 		"estTime": "8h 17m", 
@@ -32,7 +28,6 @@ const trails = [
 		"dogFriendly": true
 	},
 	{
-		"id": 5,
 		"name": "Mount Cook National Park- Mueller Hut Route",
 		"location": "NZ",
 		"estTime": "5h 12m",
@@ -41,4 +36,4 @@ const trails = [
 	}
 ]
 
-export default trails;
+export default dummyTrails;

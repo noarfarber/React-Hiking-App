@@ -1,12 +1,16 @@
-import trails from '../FakeJson';
+import dummyTrails from '../FakeJson';
 
 const TrailRow = () => {
 	return (
-		<ul data-testid="trail-name">
-			{trails.map((trail) => (
-				<li key={trail.id}>{trail.name}</li>
-			))}
-		</ul>
+		<div>
+			<ul data-testid="trail-names-list">
+				{dummyTrails.map((trail, index) => (
+					<li key={index} className="list-item" data-testid="single-trail">
+						{trail.name}
+					</li>
+				))}
+			</ul>
+		</div>
 	)
 }
 
